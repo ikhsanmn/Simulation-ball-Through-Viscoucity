@@ -1,0 +1,35 @@
+#relative {
+  position: relative;
+  width: ;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+#absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+
+
+div.ruang {
+	position: static;
+	width: 1920;
+	height: 1080;
+}
+
+div.simulasi {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+div.variabel {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}

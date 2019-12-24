@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<!--diperlukan perbaikan di dalam pembuatan grafik dan variabel e yang tidak menunjukan naik-->
+	<head>
+		<title>Simulation</title>
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	</head>
+	<body>
+
+		<div class="ruang">
+		<div class="simulasi">
+		<!--batas script-->
+		<script src="js/wadah.js"></script>
+		<script src="js/cairan.js"></script>
+		<script src="js/draw.js"></script>
+		<script src="js/vect3.js"></script>
+		<script src="js/scripts.js"></script>
+		<!--batas script-->
+		div element absolute
+		</div>
+
+		<div class="variabel">
+		 variabel air
+		<p style="">kekentalan liquid :<input id="vis" type="text" name="vis" value="0.061">PaS</input></p>
+		/*0.061*/128.42
+		<p style="">massa jenis liquid :<input id="rho" type="text" name="rho" value="875.4"></input>kg/m^3</p>
+
+		 variabel bola
+		<p style="">jari-jari bola :<input id="rbola" type="text" name="rbola">m </p>
+		<p style="">massa bola :<input id="mbola" type="text" name="mbola">kg</p>
+		<br>
+
+		
+		<div id="area3" style="width: 640px;height:360px;"></div>
+		<br>
+		<p>00:00:00:00</p><button onclick="//waktu()">start</button>
+		<br>
+		<button onclick="make();">simulate</button><br><br>
+		<p id="demo"></p>
+		</div>
+	<!--harus menambahkan js-->
+
+		</div>
+	</body>
+
+
+</html>
